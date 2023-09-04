@@ -40,8 +40,8 @@ button.clicked {
 
 .videoWrapper {
   margin-top: 20px;
-  width: 640px;
-  height: 360px;
+  width: 480px; /* Reduce the width */
+  height: 270px; /* Reduce the height */
 }
 
 video {
@@ -50,4 +50,6 @@ video {
   top: 50%;
   left: 50%;
   z-index: -1;
+  width: 100%; /* Make the video width 100% to fit the wrapper */
+  height: 100%; /* Make the video height 100% to fit the wrapper */
 }
