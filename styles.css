@@ -1,6 +1,6 @@
 body {
   background-color: black;
-  overflow: hidden; /* Prevent scrolling */
+  overflow: hidden; /* Hide scroll bars */
 }
 
 .container {
@@ -8,7 +8,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh; 
+  height: 100vh;
 }
 
 button {
@@ -20,7 +20,7 @@ button {
   border: none;
   cursor: pointer;
   border-radius: 15px;
-  z-index: 9999; 
+  z-index: 9999;
   font-family: Comic Sans MS;
   position: absolute;
   top: 40%;
@@ -31,7 +31,6 @@ button {
 button.clicked {
   display: none;
 }
-
 
 .videoWrapper {
   margin-top: 20px;
@@ -46,5 +45,3 @@ video {
   left: 50%;
   z-index: -1;
 }
-
-
