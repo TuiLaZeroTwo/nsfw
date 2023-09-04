@@ -1,8 +1,14 @@
 body {
   background-color: black;
   overflow: hidden; /* Hide scroll bars */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  height: 80vh; /* Reduce the height to 80% of the viewport height */
+  width: 80vw; /* Reduce the width to 80% of the viewport width */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 .container {
   display: flex;
   flex-direction: column;
